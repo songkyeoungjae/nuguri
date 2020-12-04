@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Nuguri</title>
+	<!-- 애니메이션 -->
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <!-- 폰트어썸 -->
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- 마우스휠 플러그인 연결 -->
+ 	<script src="js/jquery.mousewheel.js"></script>
+  <!-- 파비콘 -->
+  	<link rel="icon" href="img/favicon/nuguri_1.ico" sizes="150X150">
+  <!-- 구글폰트 -->
+ 	<link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:wght@100&display=swap" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/myStyle.css">
+	<script src="js/myjQuery.js"></script>
+</head>
+<body>
+	<div class="main_wrap">
+		
+	</div>
+	<!-- div#wrapper>section*5 -->
+	<div id="wrapper">
+		<!-- 첫번째 페이지 -->
+		<section id="main">
+			
+			<div class="gnbcolor"></div>
+			<!-- 네비lnb -->
+			<nav class="lnb">
+				<ul>
+					<li><a href="#main">menu1</a></li>
+					<li><a href="#story">menu2</a></li>
+					<li><a href="#product">menu3</a></li>
+					<li><a href="#promotion">menu4</a></li>
+					<li><a href="#community">menu5</a></li>
+				</ul>
+			</nav>
+			<!-- 네비gnb -->
+			<nav class="gnb">
+				<div class="facebook"><a href="https://www.facebook.com/nongshim" target="_blank"></a></div>
+				<div class="instagram"><a href="https://www.instagram.com/nongshim/" target="_blank"></a></div>
+				<div class="youtube"><a href="https://www.youtube.com/user/nongshimPR" target="_blank"></a></div>
+				<footer></footer>
+				<div class="footer">
+					<p><span class="joo">(주)</span>농심 <br> 서울특별시 동작구 여의대방로 112(신대방동)</p>
+					<br>
+					<p>사업자등록번호 : 118-81-03914 <br> 대표이사 : 송경재</p>
+					<br>
+					대표전화 : 010-2732-1935  <br>고객센터 : 080-023-5181 <br>
+					<br>
+					<span class="ltd">© NONGSIM CO.,LTD. ALL RIGHTS RESERVED.</span>
+				</div>
+				<div class="sublogo"><a href="#main"></a></div>
+				<ul>
+					<li class="active"><a href="#main">menu1</a></li>
+					<li><a href="#story">menu2</a></li>
+					<li><a href="#product">menu3</a></li>
+					<li><a href="#promotion">menu4</a></li>
+					<li><a href="#community">menu5</a></li>
+				</ul>
+			</nav>
+
+			<div class="wood"></div>
+			<div class="cha1"></div>
+			<div class="talkbox"><a href="https://smartstore.naver.com/nongshimmart/products/220186567" target="_blank"></a></div>
+			<div class="ramen">
+				<ul>
+					<li class="animate__animated animate__bounceInDown animate__slow"><a href="https://smartstore.naver.com/nongshimmart/products/220186567" target="_blank">ramen01</a></li>
+					<li><a href="https://smartstore.naver.com/nongshimmart/products/4551053870" target="_blank">ramen02</a></li>
+					<li><a href="https://smartstore.naver.com/nongshimmart/products/4891509723" target="_blank">ramen03</a></li>
+					<li><a href="https://smartstore.naver.com/nongshimmart/products/4816343991" target="_blank">ramen04</a></li>
+					<li><a href="https://smartstore.naver.com/nongshimmart/products/4929629289" target="_blank">ramen05</a></li>
+					<li><a href="https://smartstore.naver.com/nongshimmart/products/4891509723" target="_blank">ramen06</a></li>
+				</ul>
+			</div>
+			<div class="scroll"></div>
+			<div class="sun"></div>
+			<div class="phone"><a href="#community">더보기</a></div>
+			<div class="cloud"></div>
+			<div class="log_in"></div>
+			<div class="sign_up"></div>
+			<!-- -----------로그인창----------- -->
+			<div class="log_in_modal">
+				<div class="log_in_bg">
+					<div class="log_in_Xbtn"></div>
+					<div class="log_in_logo"></div>	
+					<div class="log_in_text">
+						<!-- 아이디/패스워드 입력 -->
+						<div class="modal_header">
+							<div class="log_in_id">아이디: &nbsp;&nbsp;
+								<input type="text" name="" placeholder="아이디를 입력해주세요.">
+							</div>
+							<div class="log_in_password">비밀번호:
+								<input type="password" name="" placeholder="비밀번호를 입력해주세요.">
+							</div>
+						</div>
+						<!-- 아이디저장/패스워드저장 -->
+						<div class="modal_check">
+							<input type="checkbox"> 아이디 저장
+							<input type="checkbox"> 비밀번호 저장
+						</div>
+						<!-- 로그인버튼/회원가입버튼 -->
+						<div class="modal_footer">
+							<input class="footer_login" type="submit" value="로그인">
+							<input class="footer_signup" type="submit" value="회원가입">
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 회원가입 입력 -->
+			<div class="join_modal">
+				<div class="join_bg">
+					<div class="join_Xbtn"></div>
+					<div class="join_logo"></div>
+					<div class="join_header">
+						<input type="text" placeholder="이름"><br>
+						<input type="text" placeholder="이메일"><br>
+						<input type="text" placeholder="비밀번호"><br>
+						<input type="text" placeholder="비밀번호 확인"><br>
+					</div>
+					<div class="join_check">
+						<input type="checkbox"> 너구리에 대한 소식을 이메일로 받아봅니다.<br>
+						<input type="checkbox"> 너구리에서 제공하는 서비스 약관에 동의합니다.<br>
+					</div>
+					<div class="join_footer">
+						<input type="submit" value="가입하기">
+					</div>
+				</div>
+			</div>
+			<div class="black_bg"></div>
+		</section>
+		<!-- 두번째 페이지 -->
+		<section id="story">
+			<div class="light"></div>
+			<div class="cha2"></div>
+			<div class="cha3"></div>
+			<div class="nuguristory1"></div>
+			<div id="carousel">
+				<ol class="nuguristory">
+					<li></li>
+					<li>
+						<div class="circle"></div>
+					</li>
+					<li></li>
+				</ol>
+				<ol class="btn_set">
+					<li class="active_on"></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+		</section>
+		<!-- 세번째 페이지 -->
+		<section id="product">
+			<div class="cha4"></div>
+			<div class="ramen01 all_ramen">
+				<div class="gray1"></div>
+			</div>
+			<div class="ramen02 all_ramen"></div>
+			<div class="ramen03 all_ramen"></div>
+			<div class="ramen04 all_ramen"></div>
+			<div class="ramen05 all_ramen"></div>
+			<div class="ramen06 all_ramen"></div>
+			<div class="ramen07 all_ramen"></div>
+			<div class="ramen08 all_ramen"></div>
+			<div class="ramen09 all_ramen"></div>
+			<div class="click"></div>
+			<div class="par1"></div>
+			<div class="par2"></div>
+			<div class="gochu"></div>
+			<div class="garlic"></div>
+			<div class="mussel1"></div>
+			<div class="mussel2"></div>
+			<div class="talk"></div>
+			<div class="pot_bottom"></div>
+			<div class="pot_top"></div>
+			<div id="carousel_2">
+				<div class="x_btn"></div>
+				<div class="ramen_modal">
+					<div class="ramen_modal_01 ramen_contents">
+					</div>
+					<div class="ramen_modal_02 ramen_contents">
+					</div>
+					<div class="ramen_modal_03 ramen_contents">
+					</div>
+					<div class="ramen_modal_04 ramen_contents">
+					</div>
+					<div class="ramen_modal_05 ramen_contents">
+					</div>
+					<div class="ramen_modal_06 ramen_contents">
+					</div>
+					<div class="ramen_modal_07 ramen_contents">
+					</div>
+					<div class="ramen_modal_08 ramen_contents">
+					</div>
+				</div>
+				<i class="second_01 fas fa-angle-left"></i>
+				<i class="second_02 fas fa-angle-right"></i>
+			</div>
+			<div class="black_bg"></div>
+		</section>
+		<!-- 네번쨰 페이지 -->
+		<section id="promotion">
+			<div class="sheep">
+				<i class="fas fa-play"></i>
+				<i class="fas fa-play"></i>
+				<i class="fas fa-play"></i>
+			</div>
+			<div class="cloud2"></div>
+			<div class="wood_sheep">
+				<div class="cha5"></div>
+			</div>
+			<div class="fishs"></div>
+			<div class="talk2"></div>
+			<div class="talk3"></div>
+			<div class="shrimp"></div>
+			<div class="event_4"></div>
+			<div class="water_drop"></div>
+			<div class="dasima_modal">
+				<div class="x_btn2"></div>
+			</div>
+			<div class="tv1">
+				<div class="x_btn6"></div>
+				<iframe class="video1" width="640" height="360" src="https://www.youtube.com/embed/f0pYCijuet4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="tv2">
+				<div class="x_btn7"></div>
+				<iframe class="video2" width="640" height="360" src="https://www.youtube.com/embed/ssuMueyU4Ik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="tv3">
+				<div class="x_btn8"></div>
+			</div>
+			<div class="event_modal2">
+				<form action="">
+					<input class="page_4_text" type="text" placeholder="등록한 URL을 남겨주세요.">
+					<input class="page_4_submit" type="submit" value="등록">
+				</form>
+				<div class="x_btn9"></div>
+			</div>
+			<div class="black_bg"></div>
+		</section>
+		<!-- 다섯번째 페이지 -->
+		<section id="community">
+			<div class="jjapaguri"></div>
+			<div class="page5_ramen"></div>
+			<div class="ramen_pot"></div>
+			<div class="cha6"></div>
+			<div class="talk_5"></div>
+			<div class="click2"></div>
+			<div class="click3"></div>
+			<div class="review nuguri_review">
+				<input class="review inputVal" type="text">
+				<input class="review review_btn" type="submit" value="등록">
+				<div class="x_btn10"></div>
+				<ol class="review_out">
+					<li>우리 가족이 늘 먹는거~~! 제일 좋아해요~~</li>
+					<li>너무 맛있어서 너구리가 되었다는 전설이 있어요</li>
+					<li>농심 너구리~ 언제나 감칠맛!! 짜파구리의 구리를 담당!!</li>
+					<li>앵그리 너구리 맛있어요 특히 라면에 올라온 너구리모양 귀엽네요. 맛있어요!</li>
+				</ol>
+			</div>
+			<div class="nuguri_recipe">
+				<div class="contents">
+					<div class="x_btn3"></div>
+					<ol class="content">
+						<li></li>
+						<li>
+							<iframe class="video4" width="432" height="243" src="https://www.youtube.com/embed/mBY5AYmF04M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</li>
+					</ol>
+					<ol class="tabs">
+						<li class="active">
+							<span>r<br>e<br>c<br>i<br>p<br>e</span>
+						</li>
+						<li>
+							<span>v<br>i<br>d<br>e<br>o</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="black_bg"></div>
+			<div class="jjapaguri_recipe">
+				<div class="contents">
+					<div class="x_btn4"></div>
+					<ol class="content">
+						<li></li>
+						<li>
+							<iframe class="video5" width="320" height="180" src="https://www.youtube.com/embed/j9v_2oAKQsw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</li>
+					</ol>
+					<ol class="tabs">
+						<li class="active">
+							<span>r<br>e<br>c<br>i<br>p<br>e</span>
+						</li>
+						<li>
+							<span>v<br>i<br>d<br>e<br>o</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="event_modal">
+				<div class="x_btn5"></div>
+			</div>
+			<div class="one_talk1">
+				<!-- <div class="page_5_text2"></div> -->
+			</div>
+			<div class="one_talk2"></div>
+			<div class="one_talk3">
+				<!-- <input class="page_5_text" type="text" placeholder="제 인생라면은 너구리입니다~">
+				<input class="page_5_submit" type="submit" value="등록"> -->
+			</div>
+			<!-- <footer></footer>
+			<div class="footer">
+					<p><span>(주)</span>농심 / 서울특별시 동작구 여의대방로 112(신대방동)</p>
+					<br>
+					<p>사업자등록번호 : 118-81-03914 / 대표이사 : 송경재</p>
+					<br>
+					대표전화 : 010-2732-1935 / 고객센터 : 080-023-5181
+				</div> -->
+		</section>
+		
+	</div>
+	<!-- --------------제이커리---------------- -->
+</body>
+</html>
